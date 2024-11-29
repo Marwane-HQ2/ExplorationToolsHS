@@ -56,8 +56,6 @@ function countWords(event) {
 
   // Mes valeurs
   const textToCount = document.getElementById('textToCount').value
-  console.log(textToCount.length)
-
   // Stratégie de comptage des mots
   var nbWord = 0
   if (textToCount.length != 0) {
@@ -85,7 +83,6 @@ function countWords(event) {
 function guessNumber(event) {
   // OK
   event.preventDefault();
-  console.log(nbToGuess)
 
   var prop = document.getElementById('IguessNumber').value;
 
