@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EX-T : Guess the number</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><text x='0' y='25' font-size='25'>🧭</text></svg>" type="image/svg+xml">
+</head>
+<body>
+    <h2>Guess the number</h2>
+    <p>This tool is at its version 1.0.0</p>
+    <p>Click the button below to play Guess the number ! The number to guess is between 1 and 100. Try not to look at the code, where is the fun in that ?</p>
+
+    <form id="playGuessNumber" onsubmit="guessNumber(event)">
+        <label for="IguessNumber">Enter your number:</label>
+        <input type="number" id="IguessNumber" placeholder="Enter your proposition here !">
+        <br>
+        <button type="submit">More or less ?</button>
+        <p id="moreOrLess"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+

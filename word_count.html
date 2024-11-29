@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EX-T : Word counter</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><text x='0' y='25' font-size='25'>🧭</text></svg>" type="image/svg+xml">
+</head>
+<body>
+    <h2>Word counter</h2>
+    <p>This tool is at its version 1.0.0</p>
+    <form id="wordCounter" onsubmit="countWords(event)">
+        <label for="textToCount">Enter your text:</label>
+        <input type="text" id="textToCount" placeholder="Paste your text here !">
+        <br>
+        <button type="submit">Count my words !</button>
+        <p id="wordCounted"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
